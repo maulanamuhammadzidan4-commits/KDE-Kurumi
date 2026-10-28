@@ -1,0 +1,61 @@
+# ==========================================
+# File & Folder Sensitif Umum (Paling Krusial)
+# ==========================================
+.ssh/
+.gnupg/
+*.pem
+*.key
+*.p12
+*.crt
+*_history
+.bash_history
+.zsh_history
+.z_history
+
+# ==========================================
+# Web Browser & Sesi Login (Berisi Cookies/Sesi)
+# ==========================================
+.mozilla/
+.config/google-chrome/
+.config/BraveSoftware/
+.config/microsoft-edge/
+.config/chromium/
+
+# ==========================================
+# Aplikasi Chat & Komunikasi
+# ==========================================
+.config/discord/
+.config/Element/
+.config/Slack/
+.config/Signal/
+.config/TelegramDesktop/
+
+# ==========================================
+# Cache, Lock, dan File Sementara (Plasma & Sistem)
+# ==========================================
+.cache/
+.local/share/Trash/
+.local/share/baloo/
+.local/share/kscreen/
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==========================================
+# KDE / Plasma Specific Sensitive Data
+# ==========================================
+# KWallet (Penyimpanan kata sandi sistem)
+.local/share/kwalletd/
+.config/kwalletrc
+
+# Riwayat Clipboard KDE
+.local/share/klipper/
+
+# Sesi Audio & Perangkat
+.config/pulse/
+.config/pipewire/
+
+# AppImage & Runtime
+.local/share/applications/AppImage*
