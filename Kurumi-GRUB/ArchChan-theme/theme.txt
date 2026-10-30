@@ -1,0 +1,205 @@
+
+# ==========================================
+# KURUMI TOKISAKI - ZAFKIEL GRUB THEME
+# Resolution: 1920x1080
+# ==========================================
+
+# General settings
+title-text: ""
+desktop-image: "zafkiel-background.png"
+desktop-color: "#080808"
+
+terminal-font: "Terminus (TTF) Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+
+# ==========================================
+# BOOT MENU
+# ==========================================
+
++ boot_menu {
+    left = 7%
+    width = 54%
+    top = 29%
+    height = 45%
+
+    item_font = "Rajdhani Regular 24"
+    item_color = "#F2D9D9"
+
+    selected_item_font = "Rajdhani Regular 24"
+    selected_item_color = "#FFFFFF"
+
+    icon_width = 24
+    icon_height = 24
+
+    item_height = 35
+    item_padding = 40
+    item_icon_space = 20
+    item_spacing = 5
+
+    menu_pixmap_style = "no_*.png"
+    selected_item_pixmap_style = "highlight_*.png"
+}
+
+
+# ==========================================
+# KURUMI TOKISAKI
+# ==========================================
+
++ image {
+    file = "Kurumi.png"
+
+    left = 60%
+    top = 0%
+    width = 40%
+    height = 100%
+}
+
+
+# ==========================================
+# PROGRESS BAR
+# ==========================================
+
++ progress_bar {
+    left = 0%
+    top = 100%-24
+    width = 100%
+    height = 24
+
+    id = "__timeout__"
+    text = "@TIMEOUT_NOTIFICATION_LONG@"
+
+    font = "Rajdhani Regular 18"
+    text_color = "#F2D9D9"
+
+    fg_color = "#DC143C"
+    bg_color = "#24050B"
+
+    highlight_style = "progress_*.png"
+}
+
+
+# ==========================================
+# GRUB TITLE
+# ==========================================
+
++ label {
+    font = "Rajdhani Regular 32"
+
+    left = 0
+    top = 8
+    width = 100%
+
+    align = "center"
+    color = "#DC143C"
+
+    text = "GR.U.B."
+}
+
++ label {
+    font = "Rajdhani Regular 24"
+
+    left = 0
+    top = 45
+    width = 100%
+
+    align = "center"
+    color = "#D4AF37"
+
+    text = "GRand Unified Bootloader"
+}
+
+
+# ==========================================
+# DECORATIVE TEXT
+# ==========================================
+
++ label {
+    font = "Rajdhani Regular 18"
+    left = 10
+    top = 50
+    width = 100%
+    color = "#D4AF37"
+    text = "╔════════════════╗"
+}
+
++ label {
+    font = "Rajdhani Regular 18"
+    left = 10
+    top = 68
+    width = 100%
+    color = "#D4AF37"
+    text = "║     [Menu 0]     ║"
+}
+
++ label {
+    font = "Rajdhani Regular 18"
+    left = 10
+    top = 86
+    width = 100%
+    color = "#DC143C"
+    text = "╟┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄╢"
+}
+
++ label {
+    font = "Rajdhani Regular 18"
+    left = 10
+    top = 104
+    width = 100%
+    color = "#D4AF37"
+    text = "║ [>>] select OS ║"
+}
+
++ label {
+    font = "Rajdhani Regular 18"
+    left = 10
+    top = 122
+    width = 100%
+    color = "#D4AF37"
+    text = "╙─┈  ┉ ┅━━ ┄┄┈┈┈━╜"
+}
+
+
+# ==========================================
+# CONTROLS
+# ==========================================
+
++ label {
+    font = "Rajdhani Regular 24"
+    left = 8
+    top = 100%-136
+    width = 100%
+    color = "#D4AF37"
+    text = " ↑↓ - NAVIGATE"
+}
+
++ label {
+    font = "Rajdhani Regular 24"
+    left = 8
+    top = 100%-112
+    width = 100%
+    color = "#D4AF37"
+    text = " ← - CONFIRM"
+}
+
++ label {
+    font = "Rajdhani Regular 24"
+    left = 8
+    top = 100%-86
+    width = 100%
+    color = "#DC143C"
+    text = " E  - OPTIONS"
+}
+
++ label {
+    font = "Rajdhani Regular 24"
+    left = 8
+    top = 100%-60
+    width = 100%
+    color = "#DC143C"
+    text = " C  - COMMAND LINE"
+}
